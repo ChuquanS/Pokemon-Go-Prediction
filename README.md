@@ -28,3 +28,8 @@ find the best score system model . Finally we chose the “Weak-minus” system 
 ### Python
 After the determination of the score system, we then pre-processed all the data by Python including the importing of data,
 the construction of scoring system based on training datasets (the “combats.csv” file) and the results of scores , so that all the data could be further processed in R to construct our ideal model for prediction.
+
+
+## Conclusion and Discussion
+
+To summary, nearly all models have achieved the specificity > 0.9 and sensitivity > 0.9. Both Neural net and GLM can work really well for this specific dataset, especially neural net. However, although RMSE in knn is relatively low compared to neural net, the accuracy of prediction is the worst among all methods in this project. For the further work, more research can be done on how to improve the accuracy of knn and try other model such as deep neural net and random forest. When comes to the score system we chose, it still can be optimized by taking both “Weak Against” and “Resistant To” into consideration rather than simply combining two systems together so that the “spDef” won’t be discarded when performing LASSO. We might improve our pre-processing data module if given more time or in the future work.
