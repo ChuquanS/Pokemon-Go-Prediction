@@ -1,0 +1,13 @@
+ Variable Name        Variable Description
+    #                 ID for each pokemon
+    Name              Name of each pokemon
+    Type    Type 1    Each pokemon has a type, this determines weakness/resistance to attacks
+            Type 2    Some pokemon are dual type and have 2
+      HP              Hit points, or health, defines how much damage a pokemon can withstand before fainting
+    Attack            The base modifier for normal attacks (e.g. Scratch, Punch)
+    Defense           The base damage resistance against normal attacks
+    SP Atk            Special attack, the base modifier for special attacks (e.g. fire blast, bubble beam)
+    SP Def            The base damage resistance against special attacks
+    Speed             Determines which pokemon attacks first each round. In the training datasets, we set the first pokemon to attack first.
+    Generation        Different pokemons have different generations depends on the release version
+    Legendary         The rarest and most powerful pokemon. Only one of a particular species.
